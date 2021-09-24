@@ -1,0 +1,225 @@
+.container {
+    margin: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 100vh;
+  }
+  .header {
+    background-color:#F6F7F8;
+    padding: 20px;
+    text-align: left;
+    color: black;
+    font-weight: 1000;
+  }
+  .dashboard {
+    display: flex;
+    font-style: italic;
+    color: #5843BE;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .chart-container {
+    width: 80%;
+    height: 100%;
+  }
+  /*
+  .header {
+    background-color: #fff;
+    /* padding: 30px 0px 0px 0px; */
+    /* border: 2px solid red; */
+    /* margin: 0; 
+    height: 15%;
+    width: 100%;
+    position: sticky;
+  }*/
+  
+  .brand {
+    float: left;
+    width: 10%;
+    height: 30%;
+    /* padding: 10px; */
+    margin: 40px 20px;
+    color:#5843BE;
+    /* border: 1px solid yellow; */
+    /* display: flex; */
+  }
+  .acadza {
+    margin: 0px;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .brandMid {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 30%;
+  
+    margin: 18px 24px;
+  
+    display: flex;
+    align-items: center;
+  
+    background: #F6F7F8;
+    border-radius: 20px;
+  }
+  
+  .Activity {
+    float: left;
+    margin: 20px 10px 20px 40px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+  
+    /* position: absolute;
+    top: 20%;
+    left: 20%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 200px; */
+    /* height: 200px; */
+  
+    color: #5843BE;
+  }
+  
+  .leftSidebar {
+    float: left;
+    margin: 0px;
+  
+    border:  "black";
+    height: 100%;
+    width: 22.3%;
+  }
+  
+  .ToolGuide {
+    float: right;
+    margin: 20px 40px 20px 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+  
+    color: #5843BE;
+  }
+  
+  .Inpbox {
+    float: right;
+    width: 21%;
+    height: 56%;
+  
+    margin: 25px 30px;
+  
+    background: #F6F7F8;
+    border-radius: 20px;
+  }
+  .Inpbox ::placeholder {
+    font-family: "Poppins";
+    color: #5843BE;
+  }
+  
+  .ary{
+    float: left;
+  }
+  .Inptext {
+    border-width: 0px;
+    border: none;
+    padding: 5px;
+    font-size: 17px;
+    color:#5843BE;
+    font-family: "Poppins";
+  
+    margin: 15px;
+  }
+  .notif {
+    /* float: left; */
+    margin: 0px 30px 0px 40px;
+    width: 14%;
+    /* height: 100%; */
+  }
+  .profile {
+    /* float: right; */
+    /* margin: 15px 50px 15px 5px; */
+    width: 22%;
+    /* height: 100%; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* object-fit: cover; */
+    border-radius: 50%;
+  }
+  
+  .Lastbox {
+    float: right;
+    width: 13.4%;
+    height: 56%;
+  
+    margin: 25px 30px;
+  
+    background: #f6f7f8;
+    border-radius: 15px;
+  }
+  .ListItem {
+    margin: 10px;
+    height: 7.5%;
+    width: 75%;
+    /* border: 1px solid rgb(32, 82, 139); */
+    /* border-radius: 12px; */
+    color: #5843BE;
+    /* background-color: #F6F7F8; */
+    display: flex;
+    align-items: center;
+  }
+
+  .ListUnordered {
+    list-style: none;
+    max-height: 540px;
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    color: #5843BE;
+    font-weight: normal;
+    overflow: auto;
+    padding: 0;
+    text-indent: 10px;
+  }
+  .ListItem p {
+    margin: 10px 0px 10px 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height */
+  
+    color: #292d48;
+  }
+  .ListImage {
+    margin: 0px 0px 0px 15px;
+    float: left;
+    width: 13%;
+    height: auto;
+  }
+  
+  .ListItem2 {
+    margin: 10px 10px 10px 10px;
+    height: 7.5%;
+    width: 75%;
+    background: #F6F7F8;
+    border-radius: 12px;
+  
+    color: #707070;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center;
+  }
+  .ListImage2 {
+    margin: 0px 20px 0px 50px;
+    /* float: left; */
+    width: 13%;
+    height: auto;
+  }

@@ -1,0 +1,140 @@
+.container {
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  font-style: italic;
+  color: blueviolet;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.chart-container {
+  width: 80%;
+  height: 100%;
+}
+
+.header {
+  background-color: white;
+  /* padding: 30px 0px 0px 0px; */
+  /* border: 2px solid red; */
+   margin: 0; 
+  height: 15%;
+  width: 100%;
+  position: sticky;
+}
+
+.brand {
+  float: left;
+  width: 10%;
+  height: 30%;
+  /* padding: 10px; */
+  margin: 40px 20px;
+  color:black;
+  /* border: 1px solid yellow; */
+  /* display: flex; */
+}
+.acadza {
+  margin: 0px;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: bold;
+  color: #292D48;
+}
+
+.brandMid {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 30%;
+
+  margin: 18px 24px;
+
+  display: flex;
+  align-items: center;
+
+  background: #F6F7F8;
+  border-radius: 20px;
+}
+
+.Activity {
+  float: left;
+  margin: 20px 10px 20px 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100%;
+
+  /* position: absolute;
+  top: 20%;
+  left: 20%; */
+  /* transform: translate(-50%, -50%); */
+  /* width: 200px; */
+  /* height: 200px; */
+
+  color: #5843BE;
+}
+
+.leftSidebar {
+  float: left;
+  margin: 0px;
+
+  height: 100%;
+  width: 22.3%;
+}
+
+.ToolGuide {
+  float: right;
+  margin: 20px 40px 20px 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100%;
+
+  color: #5843BE;
+}
+
+.Inpbox {
+  float: right;
+  width: 21%;
+  height: 56%;
+
+  margin: 25px 30px;
+
+  background: #F6F7F8;
+  border-radius: 20px;
+}
+.Inpbox ::placeholder {
+  font-family: "Poppins";
+  color: #5843BE;
+}
+
+.ary{
+  float: left;
+}
+.Inptext {
+  border-width: 0px;
+  border: none;
+  padding: 5px;
+  font-size: 17px;
+  color:#5843BE;
+  font-family: "Poppins";
+
+  margin: 15px;
+}
+
+.Lastbox {
+  float: right;
+  width: 10%;
+  height: 30%;
+
+  margin: 25px 30px;
+
+  background: #F6F7F8;
+  border-radius: 10px;
+}
